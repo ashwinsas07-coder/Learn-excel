@@ -1,7 +1,16 @@
 n=4
 for i in range(1,n+1):
      print("*" * i)  //
+
 a=10    
 b=20
 c=a+b
 print(c)   // adding
+
+name=input()
+score=int(input())
+department=input()
+
+print("my name is:",name)
+print("my score is:",score/10,"/10")
+print("my department is:",department) //casting and who to user intput get, who string to integer, who to print
